@@ -22,22 +22,17 @@ systemctl start mysqld
 Generally we use below 3 commands to check the health of DB server       
 
         To check the status of mysqld. to check all database is up and running and active or not.
-
-        ```
-        systemctl status mysqld
-        ```
-
+        
+        1) systemctl status mysqld
+        
         another command to check the status
 
-        ```
-        ps -ef | grep mysql
-        ```
+        2)  ps -ef | grep mysql
+       
         To check port is opened or not 
-        ```
-        netstat -nltp
-        ```
-
-
+     
+        3) netstat -nltp
+        
 Next, We need to change the default root password in order to start using the database service. Use password ExpenseApp@1 or any other as per your choice.
 
 ```
