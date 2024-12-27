@@ -26,16 +26,19 @@ Generally we use below 3 commands to check the health of DB server
         ```
         1) systemctl status mysqld
         ```
+
         another command to check the status
 
         ```
         2) ps -ef | grep mysql
         ```
+
         To check port is opened or not 
 
         ```
         3) netstat -nltp
         ```
+
 
 Next, We need to change the default root password in order to start using the database service. Use password ExpenseApp@1 or any other as per your choice.
 
