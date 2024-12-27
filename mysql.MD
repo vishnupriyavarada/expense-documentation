@@ -18,6 +18,10 @@ systemctl enable mysqld
 ```
 systemctl start mysqld
 ```
+To Check the status of mysqld. running and active or not.
+```
+systemctl status mysqld
+```
 
 Next, We need to change the default root password in order to start using the database service. Use password ExpenseApp@1 or any other as per your choice.
 
