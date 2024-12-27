@@ -22,14 +22,17 @@ systemctl start mysqld
 Generally we use below 3 commands to check the health of DB server
         
         To check the status of mysqld. to check all database is up and running and active or not.
+
         ```
         1) systemctl status mysqld
         ```
         another command to check the status
+
         ```
         2) ps -ef | grep mysql
         ```
         To check port is opened or not 
+
         ```
         3) netstat -nltp
         ```
