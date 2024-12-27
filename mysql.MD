@@ -63,6 +63,8 @@ show databases;
 ```
 
 Once you are in particular schema, you can get the list of tables.
+schema is something like a wardrobe where we allocate some shelves for children, few more shelves for spouse and some are for self. similarly schema/database is like a shelf.
+schema is a logical separation
 
 ```
 show tables;
