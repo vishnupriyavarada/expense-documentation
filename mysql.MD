@@ -15,7 +15,7 @@ Install MySQL Server 8.0.x
 ```
 dnf install mysql-server -y
 ```
-Note : when you install mysql automatically mysql client also get installed or comes with mysql. we do not have to install it separately
+Note : when you install mysql, automatically mysql client also get installed or comes with mysql. we do not have to install it separately
 
 Start MySQL Service
 
