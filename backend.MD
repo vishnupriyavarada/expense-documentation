@@ -61,6 +61,10 @@ Note : npm (node package manager) should be installed in the path where package.
 ```
 npm install
 ```
+or
+```
+sudo yum install npm (This command was working)
+```
 
 We need to setup a new service in systemd so systemctl can manage this service
 
