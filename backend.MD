@@ -67,6 +67,7 @@ sudo yum install npm (This command was working)
 ```
 
 We need to setup a new service in systemd so systemctl can manage this service
+  Note: If you want your application to run as a service, create a file with extension .service in /etc/systemd/system
 
 Setup SystemD Expense Backend Service
 ```
