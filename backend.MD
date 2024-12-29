@@ -56,6 +56,8 @@ Lets download the dependencies.
 ```
 cd /app
 ```
+Note : npm (node package manager) should be installed in the path where package.json is there else npm will not work because npm checks in the same folder package.json is there or not.
+
 ```
 npm install
 ```
