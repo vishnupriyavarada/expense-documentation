@@ -6,6 +6,12 @@ Developer has chosen the database MySQL. Hence, we are trying to install it up a
 
 Install MySQL Server 8.0.x
 
+Prior to installation. Once you connect to server , switch to root user
+
+```
+sudo su -
+```
+
 ```
 dnf install mysql-server -y
 ```
