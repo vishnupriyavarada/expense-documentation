@@ -49,7 +49,9 @@ mysql_secure_installation --set-root-pass ExpenseApp@1
 ## Verification
 
 We can check data by using client package called mysql.
-Note: server always need a client to serve. for ex: Linux server client is GitBash or mobaxtream. similarly to connect to mysql server we need a mysql client. mysql client is nothing but mysql command line
+Note: server always need a client to serve. 
+for ex: Linux server client is GitBash or mobaxtream. 
+similarly to connect to mysql server we need a mysql client. mysql client is nothing but mysql command line
 
 Usually command to connect mysql server is
 
