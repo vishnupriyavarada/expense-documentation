@@ -81,8 +81,11 @@ use sys schema;
 show tables;
 ```
 
+if you want to connect to mysql database. command is ... use mysql;
 
 ```
+use mysql;
+
 show tables;
 ```
 
