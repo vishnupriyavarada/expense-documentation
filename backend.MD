@@ -103,6 +103,10 @@ systemctl start backend
 ```
 systemctl enable backend
 ```
+To Check the status of backend
+```
+systemctl status backend
+```
 
 For this application to work fully functional we need to load schema to the Database.
 
@@ -119,6 +123,7 @@ Load Schema
 ```
 mysql -h <MYSQL-SERVER-IPADDRESS> -uroot -pExpenseApp@1 < /app/schema/backend.sql
 ```
+Above command will help the Backend server to connect mysql server and execute/run the backend.sql script in mysql database
 
 Restart the service.
 ```
