@@ -58,3 +58,15 @@ You can get entries of a table using
 ```
 select * from <table_name>;
 ```
+
+To exit MySQL client in Linux, you can: 
+
+```
+EXIT
+```
+or
+```
+Ctrl-D
+```
+or
+Use the command \quit, \q, or \exit
