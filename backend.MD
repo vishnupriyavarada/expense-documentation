@@ -9,10 +9,11 @@ Install NodeJS, By default NodeJS 16 is available, We would like to enable 20 ve
 ```
 dnf list available | grep nodejs
 ```
-
+ Disable older versions of nodejs
 ```
 dnf module disable nodejs -y
 ```
+Enable latest version of nodejs
 ```
 dnf module enable nodejs:20 -y
 ```
