@@ -97,14 +97,14 @@ select * from <table_name>;
 To exit MySQL client in Linux, you can: 
 
 ```
-Type EXIT
+EXIT
 ```
 or
 ```
-Type Ctrl-D
+Ctrl-D
 ```
 or
 ```
-Use the command \quit, \q, or \exit
+\quit, \q, or \exit
 ```
 
