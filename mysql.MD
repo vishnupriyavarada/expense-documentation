@@ -41,7 +41,7 @@ Generally we use below 3 commands to check the health of DB server
         3) netstat -nltp
         
 Next, We need to change the default root password in order to start using the database service. Use password ExpenseApp@1 or any other as per your choice.
-
+By default, SQL comes without password. we need to set password. if we don't set password then when ever we try to start mysql service or login it keeps on asking password and authentication fails to the server
 ```
 mysql_secure_installation --set-root-pass ExpenseApp@1
 ```
@@ -49,9 +49,9 @@ mysql_secure_installation --set-root-pass ExpenseApp@1
 ## Verification
 
 We can check data by using client package called mysql.
-Note: server always need a client to serve.
-for ex: Linux server client is GitBash or mobaxtream.
-similarly to connect to mysql server we need a mysql client. mysql client is nothing but mysql command line.
+        Note: server always need a client to serve.
+        for ex: Linux server client is GitBash or mobaxtream.
+        similarly to connect to mysql server we need a mysql client. mysql client is nothing but mysql command line.
 
 Usually command to connect mysql server is
 
