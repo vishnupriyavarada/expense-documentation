@@ -127,7 +127,7 @@ Load Schema
 ```
 mysql -h <MYSQL-SERVER-IPADDRESS> -uroot -pExpenseApp@1 < /app/schema/backend.sql
 ```
-Above command will help the Backend server to connect mysql server and execute/run the backend.sql script in mysql database
+Above command will help the Backend server to connect mysql server and execute/run the backend.sql script in mysql database to create the necessay tables for the application (schema)
 
 Restart the service.
 ```
