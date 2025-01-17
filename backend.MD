@@ -94,7 +94,7 @@ WantedBy=multi-user.target
 
 **NOTE: Ensure you replace <MYSQL-SERVER-IPADDRESS> with IP address**
 
-Load the service.
+Load the service. When we add or change anything in service, we need to reload/restart the systemctl daemon
 
 ```
 systemctl daemon-reload
